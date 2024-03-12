@@ -1,0 +1,64 @@
+*{
+   text-decoration: none !important;
+   scroll-behavior: smooth;
+}
+.pagelayout {
+    max-width: 1280px;
+    margin: 0 auto;
+   }
+   .form{
+      width: 90%;
+      padding :2rem;
+      border-radius: 15px;
+   }
+.bgCol{
+   background-color: rgb(131, 35, 196);
+}
+
+.bgColB{
+   background-color: blue;
+}
+.cursor{
+   cursor: pointer;
+}
+.imgHeight{
+   height: 400px;
+}
+.tvCard{
+   height: 400px;
+   min-width: 230px;
+}
+.tvCard:hover{
+   background-color: gray;
+   filter: brightness(50%);
+   transition: 0.3s ease-in-out;
+}
+.scrollBody{
+   scrollbar-width: none;
+   -ms-overflow-style: none;
+}
+.scrollBody::-webkit-scrollbar{
+   display: none;
+}
+   
+   @media (min-width: 768px){
+      .form{
+         width:420px;
+      }
+      .boxSize{
+         flex:2
+      }
+      .boxSizeB{
+         flex:3
+      }
+      .boxSizeC{
+         flex:4
+      }
+      .imgHeight{
+         height: 600px;
+      }
+      .tvCard{
+         height: 420px;
+     
+      }
+   }
